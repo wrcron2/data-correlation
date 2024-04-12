@@ -1,0 +1,24 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.metrics-section {
+    flex: 1 1 20%;
+}
+
+.graph-section {
+    width: 100%;
+    flex: 1 1 50%;
+
+}
+
+
+.hr-horizantal {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  
+}

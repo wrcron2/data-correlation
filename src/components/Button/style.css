@@ -1,0 +1,39 @@
+.btn {
+
+    text-decoration: none;
+
+    
+
+    white-space: nowrap;
+    letter-spacing: -0.4px;
+
+    border-color: #E7EBEE;
+    background-color: #fff;
+
+    height: 22px;
+    font-size: 0.8rem;
+    line-height: 1.2;
+
+    color: #455A64;
+    min-width: 0;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    text-transform: none;
+
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    background: #fff;
+    border-color: #E7EBEE;
+    border-radius: 10%;
+    margin: 0 5px;
+
+  }
+  
+  .btn:hover {
+    background: #F4F5F7;
+    text-decoration: none;
+  }
+
+  .selected {
+    background-color: #F4F5F7;
+
+  }
