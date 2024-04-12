@@ -30,6 +30,7 @@
 .lw-content {
   width: 100%;
   height: 100%;
+  padding: 0 25px;
 
 
 }
@@ -43,16 +44,23 @@
   overflow-x: hidden;
   padding-top: 20px;
   background: #FAFAFA;
-
-
 }
 
 .lw-sidenav a {
-  padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
   color: rgb(69, 90, 100);
   display: block;
+  border-bottom: 1px solid #dbdbdb; 
+  padding: 25px 8px 25px 16px;
+}
+
+.lw-sidenav a:hover {
+  background-color: #E7EBEE;
+}
+
+.lw-sidenav .selected {
+  background: #E1F5FE;
 }
 /* side-nav end  */
 
