@@ -102,7 +102,7 @@ const App = () => {
       </header>
       <div className="lw-content-wrapper">
         <section className="lw-sidenav">
-          {Object.keys(apps).map(appId => <a onClick={() => dispatch({ type: 'selected', payload: appId })} key={appId} href="#services">{appId}</a>)}
+          {Object.keys(apps).map(appId => <a onClick={() => dispatch({ type: 'selected', payload: appId })} key={appId}>{appId}</a>)}
         </section>
         <section className="lw-content">
           <Home key={selected} apps={apps} selected={selected} />
